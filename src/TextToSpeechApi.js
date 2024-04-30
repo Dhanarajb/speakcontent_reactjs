@@ -47,7 +47,7 @@ const TextToSpeechInput = () => {
         <h3>Spoken Texts:</h3>
         <ul>
           {spokenTexts.map((spokenText, index) => (
-            <li key={index}>{spokenText}</li>
+            <li key={index}>{spokenText}🔊</li>
           ))}
         </ul>
       </div>
